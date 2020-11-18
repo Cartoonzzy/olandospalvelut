@@ -1,0 +1,229 @@
+html {
+	scroll-behavior: smooth;
+  }
+
+
+  .divMobile {
+    display: none;
+}
+
+.divMaster {
+    height: 8rem;
+   
+}
+
+
+
+.divLogo h1 {
+    
+    margin-top:3rem;
+    margin-left:2rem;
+}
+
+.orderButton {
+    background-color:#0099ff;
+    color: white;
+    margin-top: 3.5rem;
+    border-radius: 2rem;
+    margin-left:20rem;
+}
+
+.navbar {
+    background-color:#0099ff;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+}
+
+.navbar a {
+    color:white;
+}
+
+.carousel{
+    -moz-border-radius: 50%; /* FF1+ */
+    -webkit-border-radius: 50%; /* Saf3-4, iOS 1+, Android 1.5+ */
+    border-radius: 50%; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+    overflow:hidden;
+    z-index: 1000;
+    margin-bottom: 2rem;
+}
+
+.carousel-item{
+    height: 10rems;
+} 
+.carousel-item img{
+    height: 10rems;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+
+
+.card-header {
+    text-align:center;
+    background-color:#0099ff;
+    color:white;
+}
+
+.card-footer {
+    text-align:center;
+    background-color:#0099ff;
+    color:white;
+}
+
+
+.card-footer a {
+    color:white;
+}
+
+.footer{
+    background-color: #0099ff;
+    text-align:center;
+}
+
+.divContact {
+    margin-top: 2rem;
+    border: 0.2rem solid  #0099ff;
+    border-radius: 2.5%;
+}
+
+.header3 {
+    color: #0099ff;
+    text-align:center;
+    padding-bottom: 2rem;
+}
+
+.hrLine {
+    height:0.5rem;
+    background-color:  #0099ff;
+}
+
+.divReview {
+    margin-top: 2rem;
+    border: 0.2rem solid  #0099ff;
+    border-radius: 2.5%;
+    margin-bottom:2rem;
+}
+
+.btn {
+    margin-bottom:1rem
+}
+
+.divFaq {
+    margin-top:2rem;
+}
+
+.divHow {
+    text-align:center;
+    border: 2rem solid  #0099ff; 
+    border-radius:50%;
+    padding: 0 1rem 1rem 0;
+}
+
+.card-link {
+    color:white;
+}
+
+.divLang {
+    margin-top:2rem;
+    padding-left:10rem;
+}
+
+.divLang img {
+    height:2rem;
+    margin-top:2rem;
+    text-align:center;
+}
+
+#summaryDiv {
+    display:none;
+}
+
+#windowForm {
+    display:none;
+}
+
+#windowDiv {
+    display:none;
+}
+
+.divServicePics {
+    padding-top:4rem;
+}
+
+.divServicePics img {
+    border-radius:50%;
+}
+
+.text-block {
+    position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+    
+}
+
+.polaroid {
+    margin-bottom:2rem;
+    width:75%;
+    box-shadow: 5px 10px 18px #0099ff;
+}
+
+.error {
+    color:red;
+}
+
+.btnHide {
+    display:none;
+}
+
+.form-group.required .control-label:after { 
+   content:"*";
+   color:red;
+}
+
+@media only screen and (max-width: 1023px) {
+    .orderButton {
+        background-color:#0099ff;
+        color: white;
+        border-radius: 2rem;
+        margin-left:5rem;
+    }
+
+    .divLang {
+        padding-top:3rem;
+        padding-left:5rem;
+    }
+  
+}
+
+@media only screen and (max-width: 767px) {
+
+    .divMaster {
+        display:none;
+    }
+
+    .divLogo img {
+        height:5rem;
+    }
+
+    .divMobile {
+        text-align:center;
+        display:block;
+    }
+   
+    
+    .orderButton {
+        background-color:#0099ff;
+        color: white;
+        border-radius: 2rem;
+        margin-left:0rem;
+    }
+}
